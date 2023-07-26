@@ -1,0 +1,24 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,9900.540000000003,118806.48,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,Asia Pacific (Hong Kong),,Amazon Route 53,0,365.5,4386.00,USD,,"Hosted Zones (1), Additional Records in Hosted Zones (), Number of Elastic Network Interfaces (4)"
+My Estimate,Asia Pacific (Hong Kong),,Network Address Translation (NAT) Gateway,0,47.52,570.24,USD,,Number of NAT Gateways (1)
+My Estimate,Asia Pacific (Tokyo),,Amazon CloudFront,0,155,1860.00,USD,,Number of requests (HTTPS) (155000000 per month)
+My Estimate,Asia Pacific (Tokyo),,S3 Standard,0,256,3072.00,USD,,S3 Standard storage (10 TB per month)
+My Estimate,Asia Pacific (Tokyo),,Data Transfer,0,0,0.00,USD,,
+My Estimate,Asia Pacific (Hong Kong),Web Server,Amazon EC2 ,0,979.44,11753.28,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 5), Advance EC2 instance (m6i.xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB)"
+My Estimate,Asia Pacific (Hong Kong),App Server,Amazon EC2 ,0,979.44,11753.28,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 5), Advance EC2 instance (m6i.xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,Asia Pacific (Hong Kong),Application Load Balancer,Application Load Balancer,0,1305.02,15660.24,USD,,Number of Application Load Balancers (1)
+My Estimate,Asia Pacific (Hong Kong),Network Load Balancer,Network Load Balancer,0,502.02,6024.24,USD,,"Number of Network Load Balancers (1), Average number of new TCP connections ( per second), Processed bytes per NLB for TCP (100 GB per hour)"
+My Estimate,Asia Pacific (Hong Kong),Master DB Instances,Amazon RDS for PostgreSQL,0,2782.32,33387.84,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB), Nodes (3), Instance Type (db.m6i.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Single-AZ), Pricing Model (OnDemand), Additional backup storage (30 GB)"
+My Estimate,Asia Pacific (Hong Kong),Replica DB Instances,Amazon RDS for PostgreSQL,0,2528.2799999999997,30339.36,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB), Nodes (3), Instance Type (db.m6g.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Single-AZ), Pricing Model (OnDemand), Additional backup storage (30 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
