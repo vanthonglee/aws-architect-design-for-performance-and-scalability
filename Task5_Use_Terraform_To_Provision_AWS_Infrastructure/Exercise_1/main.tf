@@ -1,8 +1,8 @@
 # Designate a cloud provider, region, and credentials
 provider "aws" {
-  access_key = "ASIASFDPZQUQ3U7CZB5D"
-  secret_key = "IUC0+a8lhEb25YWcN81oMHMlvsScGjI9rJxbLWPh"
-  token = "FwoGZXIvYXdzELX//////////wEaDLfj0BGu3Nus0BrYDCLVATNcJkGiQFM47k3ZWK4ntJ2SAa0BOiwo3yy2ho5I1n4B/iJpZ8bv4a54u4xVhhOBKVY/5a167VEVH50YXSDnx11F2Rg950WRHhr69ifZm9d/nsBHglLsDoCnw9wy+Ncles0+vrnaJL1fJ1L1xmyUWwkF8l1pjQnnhLEexqYjwpeZ91PgMviEDjVCul8c748Sab78X+ZV38Rk6kjJkT5FBPrtNXq8n6CbFHt9zWz4DcgUuMQdRctIqGavwmol00C91xUCai7L5P2S3O0VtJ94r+n1NHESOijdoYKmBjItlaL3a8GnAooPtBNEwKyOD+F+Mv46bPwjKLz3JF8zkNZ1HwEhM7MaehhnKJyu"
+  access_key = "xxx"
+  secret_key = "xxx"
+  token = "xxx"
   region = "us-east-1"  # Replace with your desired AWS region
 }
 
